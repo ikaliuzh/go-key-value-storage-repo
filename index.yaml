@@ -26,6 +26,6 @@ entries:
     name: kv-bundle
     type: application
     urls:
-    - https://github.com/ikaliuzh/go-key-value-storage-repo/kv-bundle-0.1.0.tgz
+    -  https://ikaliuzh.github.io/go-key-value-storage-repo/kv-bundle-0.1.0.tgz
     version: 0.1.0
 generated: "2022-10-21T10:17:26.917319+03:00"
