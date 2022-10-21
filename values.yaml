@@ -4,7 +4,7 @@ server:
 
   # Service
   service:
-    type: ClusterIP
+    type: LoadBalancer
     port: 8080
 
   # Container Image
