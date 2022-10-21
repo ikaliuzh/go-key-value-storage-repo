@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  kv-bundle:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-10-21T10:17:26.926663+03:00"
+    dependencies:
+    - alias: common
+      name: kv-common
+      repository: file://../kv-common
+      version: 0.1.0
+    - alias: server
+      name: kv-server
+      repository: file://../server
+      tags:
+      - server
+      version: 0.1.0
+    - alias: operator
+      name: kv-operator
+      repository: file://../operator
+      tags:
+      - operator
+      version: 0.1.0
+    description: key-value chart
+    digest: 4bacc89fbe87e431277fa8694cdea05688d193d45d5b5468d7deaa633a3477b0
+    name: kv-bundle
+    type: application
+    urls:
+    - https://github.com/ikaliuzh/go-key-value-storage-repo/kv-bundle-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-21T10:17:26.917319+03:00"
